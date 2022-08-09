@@ -1,0 +1,74 @@
+.Right{
+    flex:3.5;
+}
+.right-wrapper{
+    padding:20px 20px 0 0;
+}
+.birthday-container{
+    display:flex;
+    align-items:center;
+}
+.birthday-img{
+    height:40px;
+    width:40px;
+    margin-right:10px;
+}
+.birthday-text{
+    font-weight:300;
+    font-size:15px;
+}
+.right-add{
+   width: 100%;
+   margin:30px 0 ;
+   border-radius:10px;
+}
+.right-title{
+    margin-bottom:20px;
+}
+.right-friend-list{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.rightTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.rightInfo{
+    margin-bottom: 30px;
+}
+.rightInfoItem{
+    margin-bottom: 10px;
+}
+.followingImg{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    border-radius:5px;
+
+}
+.rightInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color:#555;
+}
+.rightInfoValue{
+    font-weight: 300;
+
+}
+
+
+.followings{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.following{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 20px;
+    cursor:pointer;   
+}

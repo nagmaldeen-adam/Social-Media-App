@@ -1,0 +1,47 @@
+.side{
+    flex:3;
+    height:calc(100vh - 50px);
+    overflow-y: scroll;
+    position:sticky;
+    top:50px;
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-track{
+    background-color:#f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color:rgb(179,179,179);
+}
+.side-wrapper{
+    padding:20px;
+}
+.side-list{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+.side-list-item{
+   display:flex;
+   align-items:center;
+   margin-bottom:20px;
+}
+.side-icons{
+    margin-right:15px;
+}
+.side-button{
+ width:150;
+ border:none;
+ border-radius:5px;
+ padding:10px;
+ font-weight:500;
+}
+.side-hr{
+    margin:20px 0;
+}
+.side-friend-list{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
